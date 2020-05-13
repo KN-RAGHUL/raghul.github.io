@@ -1,0 +1,49 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+html{
+    background-image: linear-gradient(to right, red, blue);
+    color: ivory;
+}
+.container
+{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px 10px;
+}
+#main_heading
+{
+    height: 200px;
+}
+#input_box
+{
+    height: 100px;
+}
+#show_value
+{
+    height: 100px;
+}
+
+input{
+    padding: 10px;
+}
+.buttonpress
+{
+    background-color: magenta;
+    padding: 20px;
+    border: none;
+    rotate: 20deg;
+    border-radius: 5%;
+}
+.buttonpress:hover
+{
+    background-color: black;
+    color: ivory;
+}
