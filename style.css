@@ -18,35 +18,18 @@ html{
     margin: auto;
     padding: 20px 10px;
 }
+input{
+    height: 50px;
+    width: 100px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
 #main_heading
 {
     height: 200px;
 }
-#input_box
-{
-    height: 100px;
-}
 #show_value
 {
-    height: 200px;
-}
-
-input{
-    padding: 10px;
-    border: none;
-    margin: 5px;
-}
-.buttonpress
-{
-    background-color: magenta;
-    padding: 20px;
-    border: none;
-    margin: 5px;
-    rotate: 20deg;
-    border-radius: 5%;
-}
-.buttonpress:hover
-{
-    background-color: black;
-    color: ivory;
+    height: 100px;
 }
